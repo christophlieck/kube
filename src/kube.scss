@@ -11,3 +11,13 @@
 @import "_scss/variables";
 @import "_scss/mixins";
 @import "_scss/components";
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.col {
+    background-color: #d8e9fa;
+}

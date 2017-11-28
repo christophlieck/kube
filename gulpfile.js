@@ -60,7 +60,8 @@ gulp.task('scripts', function() {
 gulp.task('watch', function() {
 
     gulp.watch(scripts, ['scripts']);
-    gulp.watch(['src/_scss/*.scss', 'src/_scss/components/*.scss', 'src/_scss/mixins/*.scss'], ['sass', 'combine']);
+    gulp.watch('src/kube.scss', ['sass']);
+    // gulp.watch(['src/_scss/*.scss', 'src/_scss/components/*.scss', 'src/_scss/mixins/*.scss'], ['sass', 'combine']);
 
 });
 
